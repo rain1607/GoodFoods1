@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MenuGoodfood"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".loginActivity" />
+        <activity android:name=".OrderListActivity" />
+        <activity android:name=".deliveryActivity" />
+        <activity
+            android:name=".MenuGoodfood"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RegisterFood"
             android:theme="@style/AppTheme.NoActionBar" />
