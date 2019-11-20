@@ -8,7 +8,7 @@
     tools:context=".deliveryActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/address"
         android:layout_width="303dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -26,10 +26,10 @@
         android:text="จัดส่งที่ :"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/address"
+        app:layout_constraintEnd_toEndOf="@+id/address"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="@+id/address"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_chainStyle="packed" />
 
@@ -40,14 +40,14 @@
         android:text="เบอร์ติดต่อ :"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
-        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/phon"
+        app:layout_constraintEnd_toEndOf="@+id/address"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editText"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintStart_toStartOf="@+id/address"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/phon"
         android:layout_width="301dp"
         android:layout_height="51dp"
         android:ems="10"
